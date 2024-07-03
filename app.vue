@@ -6,6 +6,6 @@
 
 <script setup lang="ts">
 useHead({
-  titleTemplate: `theSHIT - %s`,
+  titleTemplate: `theSHIT » %s`,
 })
 </script>

@@ -5,7 +5,9 @@ export default defineNuxtConfig({
     "@nuxt/icon",
     "@nuxt/fonts",
     "nuxt-viewport",
-    "@nuxtjs/tailwindcss"
+    "@nuxtjs/tailwindcss",
+    "@nuxt/content",
+    "@nuxt/image"
   ],
   plugins: ["~/plugins/preline.client.ts"]
 })
