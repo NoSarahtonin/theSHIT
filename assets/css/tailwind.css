@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+  @font-face {
+    font-family: "Anicons";
+    src: url("/assets/fonts/AniconsGX.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Anicons Color";
+    src: url("/assets/fonts/AniconsColorGX.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @keyframes animate-icon {
+    0% {
+      font-variation-settings: "TIME" 1;
+    }
+    100% {
+      font-variation-settings: "TIME" 100;
+    }
+  }
+  body {
+    @apply font-sans text-neutral-900 dark:text-neutral-100 bg-neutral-50 dark:bg-neutral-800;
+  }
+}
+
+@layer components {
+  .navlink {
+    @apply text-2xl font-bold duration-300 ease-in-out delay-75 cursor-pointer text-primary-600 dark:text-primary-200 font-display tracking-xxxwide hover:scale-105 focus:scale-105 hover:text-primary-800 focus:text-primary-800 dark:hover:text-primary-400 dark:focus:text-primary-400 hover:underline focus:underline hover:decoration-secondary-600 focus:decoration-secondary-600 dark:hover:decoration-secondary-400 dark:focus:decoration-secondary-400 decoration-4 underline-offset-2;
+  }
+}
+
+@layer utilities {
+  .anicon {
+    animation: animate-icon 1s ease-in-out infinite;
+  }
+}
