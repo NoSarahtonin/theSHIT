@@ -1,17 +1,17 @@
 <template>
   <header class="flex flex-wrap items-center justify-between w-full">
     <div class="flex flex-wrap items-center h-16 justify-beteen">
-      <div class="flex items-center justify-start w-2/3 gap-8 px-12">
+      <div class="flex items-center justify-start w-2/3 px-12">
         <NuxtLink to="/" class="text-shadow-sm"
           ><span
             class="text-3xl font-medium tracking-tighter font-display text-secondary-800 dark:text-secondary-400"
             >the</span
           ><span
-            class="text-4xl font-bebas font-extrabold text-primary-700 dark:text-primary-300"
+            class="text-4xl font-bebas font-extrabsold text-primary-700 dark:text-primary-300"
             >SHIT</span
           ></NuxtLink
         >
-        <input type="search" id="searchBar" class="w-40 px-2 mt-[1px] hover:w-80 active:w-80 focus:active:w-80 border-primary-100 bg-[#ffffff] hover:border-primary-200 focus:border-primary-200 active:border-primary-200 focus:outline-secondary-800 border rounded-md active:outline-secondary-800" placeholder="Search here...">
+        <input type="search" id="searchBar" class="w-40 focus:active:w-80 border-primary-200 hover:focus:active:border-primary-300 focus:active:outline-secondary-800" placeholder="Search ">
       </div>
       <div class="flex items-center justify-end w-1/3 gap-8 px-12"></div>
     </div>

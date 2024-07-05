@@ -11,7 +11,7 @@
             >SHIT</span
           ></NuxtLink
         >
-        <input type="search" id="searchBar" class="w-40 px-2 mt-[1px] hover:w-80 active:w-80 focus:active:w-80 border-primary-100 bg-[#ffffff] hover:border-primary-200 focus:border-primary-200 active:border-primary-200 focus:outline-secondary-800 border rounded-md active:outline-secondary-800" placeholder="Search here...">
+        <input type="search" id="searchBar" class="w-40 p mt-[1px] hover:w-80 active:w-80 focus:active:w-80 border-primary-100 bg-[#ffffff] hover:border-primary-200 focus:border-primary-200 active:border-primary-200 focus:outline-secondary-800 border rounded-md active:outline-secondary-800" placeholder="Search here...">
       </div>
       <div class="flex items-center justify-end w-1/3 gap-8 px-12"></div>
     </div>
